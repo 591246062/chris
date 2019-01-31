@@ -1,0 +1,60 @@
+<swiper indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true"> 
+      <view wx:for="{{arr}}" wx:key="this"> 
+        <swiper-item width="100%" display="block"> 
+            <image src="{{item}}" class="slide-image" width="100%" height="150" display="block"/> 
+        </swiper-item> 
+      </view> 
+</swiper>
+<view class='views'></view>
+<text class='music'>
+  <text>《红尘来去一场梦》</text>
+
+  谱曲：巫启贤
+
+  演唱者：{{userInfo.nickName}}
+  
+  码字：刘亚伟
+
+  镜中影花乱舞风   谁不怜惜情浓  
+
+  春去秋来四季倥偬   留不住又何必眷恋残红
+
+  红尘来呀来 去呀去   都是一场梦
+
+  红尘来呀来 去呀去也空
+  
+  日落向西来月向东  真情难填埋无情洞
+
+  红尘来呀来 去呀去也空
+
+  空中楼阁青云中  谁不追逐寻梦
+
+  浮名一朝转眼无踪  留不住又何必苦苦争锋
+
+  红尘来呀来 去呀去  都是一场梦
+
+  红尘来呀来 去呀去也空
+
+  日落向西来月向东  真情难填埋无情洞
+
+  红尘来呀来 去呀去也空
+
+  红尘来呀来 去呀去  都是一场梦
+
+  红尘来呀来 去呀去也空
+
+  日落向西来月向东  真情难填埋无情洞
+
+  红尘来呀来 去呀去也空
+
+  红尘来呀来 去呀去  都是一场梦
+
+  红尘来呀来 去呀去也空
+
+  日落向西来月向东  真情难填埋无情洞
+
+  红尘来呀来 去呀去也空
+
+  红尘来呀来 去呀去也空
+</text>

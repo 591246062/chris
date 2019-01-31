@@ -1,0 +1,9 @@
+  <view class='back'>
+    <image class='bag' src='../images/wzry.jpg'></image>
+    <view class='show-top'>
+      <view wx:for="{{arr}}" wx:key='imgs,texts'>
+        <image src='{{item.imgs}}'></image>
+        {{item.texts}}
+      </view>
+    </view>
+  </view>

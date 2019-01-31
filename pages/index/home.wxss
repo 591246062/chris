@@ -1,0 +1,6 @@
+/* pages/index/home.wxss */
+page{ background: radial-gradient(#999, #666,#333);}
+image{width:100%; height: 100%;}
+swiper{position: fixed;top: 0;left: 0;width: 100%;}
+.views{height: 180px}
+.music text{text-align: center;width: 100%;display: inline-block;color: red;}

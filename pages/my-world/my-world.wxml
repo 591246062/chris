@@ -1,0 +1,12 @@
+<!--pages/my-world/my-world.wxml-->
+<view class="section tc">
+  <video id="myVideo" src="https://ugcdl.video.gtimg.com/uwMRJfz-r5jAYaQXGdGnC2_ppdhgmrDlPaRvaV7F2Ic/y0551tt6x6l.p712.1.mp4?sdtfrom=v1010&guid=577c388e89fb831d322f65c4d350cc0b&vkey=AEABBB8364329584DE7797121719758E3CC9DB4744716D2BA91D3EB4DBBF7C06EC68959C612092A1376B42FE6E5B6DA294424C701A18849D7D3253C069633F6CF772E428066E3FE4CBDD8B1FFE8436FB0558355C276E0973688E1B16A5C57F2A8BF11926B984B8E13A82FBB4DB40A81D67D22F68E5F5AC2F" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+    <button bindtap="bindButtonTap">获取视频</button>
+    <input bindblur="bindInputBlur"/>
+    <button bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>
+
+<!-- 现在的video就下面三个属性 -->
+<video src="" binderror="" hidden></video>
